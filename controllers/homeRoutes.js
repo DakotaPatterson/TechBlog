@@ -3,13 +3,8 @@ const { User, Score } = require("../models");
 const withAuthorization = require("../utils/auth");
 
 router.get("/", async (req, res) => {
-	try {
-		res.render("home", {
-			logged_in: req.session.logged_in,
-		});
-	} catch (error) {
-		res.status(500).json(error);
-	}
+	const posts = await Post.findAll();
+    res.render('home', { posts });
 });
 
 
