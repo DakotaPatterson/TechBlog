@@ -1,0 +1,25 @@
+:root {
+	background-color:#bbf5c7;
+}
+header{
+	background-color: #4d2b25;
+}
+nav{
+	color: #bbf5c7;
+}
+.titleContainer {
+	background-color:#bbf5c7;
+	color: #4d2b25;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0.5rem 0.5rem rgba(175, 212, 153, 0.795);
+}
+/* custom Google font */
+.montserrat-unique {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
